@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lato:wght@300&family=Lora&family=Montserrat:ital,wght@0,400;1,300&family=Open+Sans&family=PT+Sans&family=Playfair+Display&family=Poppins:wght@300;400&family=Roboto+Condensed&family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    font-family: poppins;
+}
+.body{
+  background-color: #f9f9f9;
+    padding: 0 4%;
+}
+
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    margin-left: -2px;
+}
+.right-nav li{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+}  
+.right-nav a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .right-nav ul li{
+    margin: 12px;
+  }
+.right-nav{
+    margin-left: 740px;
+    font-size: 16px;
+
+}  
+.right-nav button{
+    /* border: 2px solid green; */
+    border: 2px solid #16ad8c;
+  box-shadow: 1px 1px 2px rgb(148, 153, 148);
+  background-color: white;
+  border-radius: 2px;
+  width: 90px;
+}
+
+.buttons button{
+    border-radius: 2px;
+background:white;
+color:  rgba(13, 129, 104, 0.80);
+border: none;
+width: 192px;
+height: 43px;
+margin: 12px 43px;
+text-align: left;
+padding: 11px 26px;
+}
+.buttons button:hover{
+    border-radius: 2px;
+background-color: rgba(13, 129, 104, 0.75);
+color: white;
+}
+.middle select{
+    border-radius: 5px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+width:264px ;
+height:30px ;
+}
+.fur-stat button{
+    border-radius: 5px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+width: 108px;
+height: 30px;
+font-size: 12px;
+margin-right: 10px;
+}
+
+.cover button{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+width: 35px;
+height: 30px;
+margin-right: 9px;    
+}
+.floor input{
+    border-radius: 5px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+width: 157px;
+height: 30px;
+margin-right: 31px;
+}
+
+.room input{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    width: 157px;
+    height: 30px;
+    margin-right: 31px;
+    
+}
+.lift select{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    width: 157px;
+    height: 30px;
+    margin-right: 31px;
+   
+}
+.sec select{
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+    width: 157px;
+    height: 30px;
+    margin-right: 31px;
+   
+}
+.ready button{
+    border-radius: 5px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+width:159px ;
+height:28px ;
+margin-right: 28px;
+font-size: 12px;
+}
+.pic a{
+    border-radius: 5px;
+background: rgba(13, 129, 104, 0.80);
+width: 160px;
+height: 30px;
+color: white;
+text-decoration: none;
+font-size: 12px;
+}
+.pic{
+    border-radius: 5px;
+border: 1px solid rgba(0, 0, 0, 0.20);
+background: linear-gradient(180deg, rgba(33, 203, 230, 0.13) 2.08%, rgba(187, 244, 252, 0.14) 33.85%, rgba(207, 249, 255, 0.22) 67.71%, rgba(73, 231, 255, 0.25) 88.54%);
+width: 528px;
+height: 216px;
+text-align: center;
+}
+
+/* property details */
+.all-btn button{
+    border-radius: 5px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+width: 121px;
+height: 30px;
+margin-right: 5px;
+}
+.built-input input{
+    border-radius: 5px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+width: 228px;
+height: 30px;
+}
+.part button{
+    border-radius: 5px;
+border: 1px solid rgba(0, 0, 0, 0.10);
+background: #FFF;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.08);
+width:112px ;
+height:30px ;
+font-size: 12px;
+}
